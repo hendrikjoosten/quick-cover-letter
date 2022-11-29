@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "quick-cover-letter"
+version = "0.0.1"
+authors = [
+  { name="Hendrik Joosten", email="joostenhendrik@gmail.com" },
+]
+description = "A small package to take in job descriptions and output sentances you can add to your cover letter"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/pypa/quick-cover-letter"
+"Bug Tracker" = "https://github.com/hendrikjoosten/quick-cover-letter/issues"
